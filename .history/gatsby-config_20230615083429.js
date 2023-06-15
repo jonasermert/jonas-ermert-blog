@@ -1,21 +1,23 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
+ */
 
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
   siteMetadata: {
-    title: `Jonas Ermert Blog`,
+    title: `Gatsby Starter Blog`,
     author: {
-      name: `Jonas Ermert`,
-      summary: `who is a software developer work and live in Erfurt`,
+      name: `Kyle Mathews`,
+      summary: `who lives and works in San Francisco building useful things.`,
     },
-    description: `Welcome to my place on the
-    web for everything I want to show the world.
-    My website contains no advertising, no affiliate links, no tracking or
-    analytics, no sponsored posts and no paywall.`,
+    description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `Jonas20692`,
+      twitter: `kylemathews`,
     },
   },
   plugins: [
@@ -100,7 +102,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Jonas Ermert Blog RSS Feed",
+            title: "Gatsby Starter Blog RSS Feed",
           },
         ],
       },
@@ -108,12 +110,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jonas Ermert`,
-        short_name: `Jonas`,
+        name: `Gatsby Starter Blog`,
+        short_name: `Gatsby`,
         start_url: `/`,
         background_color: `#ffffff`,
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
+        // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
   ],

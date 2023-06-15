@@ -9,10 +9,7 @@ module.exports = {
       name: `Jonas Ermert`,
       summary: `who is a software developer work and live in Erfurt`,
     },
-    description: `Welcome to my place on the
-    web for everything I want to show the world.
-    My website contains no advertising, no affiliate links, no tracking or
-    analytics, no sponsored posts and no paywall.`,
+    description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `Jonas20692`,
