@@ -7,7 +7,7 @@ module.exports = {
     title: `Jonas Ermert Blog`,
     author: {
       name: `Jonas Ermert`,
-      summary: `work and live in Erfurt`,
+      summary: `who is a software developer work and live in Erfurt`,
     },
     description: `Welcome to my place on the
     web for everything I want to show the world.
